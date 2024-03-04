@@ -13,7 +13,7 @@ public class App {
             System.out.println("3 - Exibir a classificação de um professor pelo nome");
             System.out.println("4 - Encerrar programa");
             opcao = input.nextInt();
-            input.nextLine(); // Consome a quebra de linha
+            input.nextLine(); 
 
             switch (opcao) {
                 case 1:
